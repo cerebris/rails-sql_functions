@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rails_sql_functions/version"
+require "rails/sql_functions/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rails_sql_functions"
-  spec.version       = RailsSqlFunctions::VERSION
+  spec.name          = "rails-sql_functions"
+  spec.version       = Rails::SqlFunctions::VERSION
   spec.authors       = ["Larry Gebhardt"]
   spec.email         = ["larry@cerebris.com"]
 
   spec.summary       = %q{Rake task to load and run sql functions}
   spec.description   = %q{Rake task to oad and run sql functions}
-  spec.homepage      = "https://github.com/cerebris/rails_sql_functions"
+  spec.homepage      = "https://github.com/cerebris/rails-sql_functions"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/cerebris/rails_sql_functions"
+    spec.metadata["source_code_uri"] = "https://github.com/cerebris/rails-sql_functions"
     # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."

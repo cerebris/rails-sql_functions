@@ -1,4 +1,4 @@
-# RailsSqlFunctions
+# Rails-SqlFunctions
 
 This gem adds rake tasks to run sql statements. An option to dump the database structure using `db:structure:dump` is
 also available.
@@ -8,7 +8,7 @@ also available.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails_sql_functions'
+gem 'rails-sql_functions'
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rails_sql_functions
+    $ gem install rails-sql_functions
 
 ## Usage
 
@@ -50,7 +50,7 @@ push git commits and tags, and push the `.gem` file to [rubygems.org](https://ru
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at 
-[https://github.com/cerebris/rails_sql_functions](https://github.com/cerebris/rails_sql_functions).
+[https://github.com/cerebris/rails-sql_functions](https://github.com/cerebris/rails-sql_functions).
 
 ## License
 

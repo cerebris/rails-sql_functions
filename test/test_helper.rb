@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "rails_sql_functions"
+require "rails-sql_functions"
 
 require "minitest/autorun"
 require 'active_record'

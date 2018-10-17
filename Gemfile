@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Specify your gem's dependencies in rails_sql_functions.gemspec
+# Specify your gem's dependencies in rails-sql_functions.gemspec
 gemspec
 
 platforms :ruby do
